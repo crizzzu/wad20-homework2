@@ -202,3 +202,76 @@ nav div.avatar-container {
 .like-button.liked {
     background-color: #01579b;
 }
+
+.avatar-menu
+{
+background: #ffffff;
+list-style-type: none;
+position: fixed;
+text-align: left;
+margin-right: 15px;
+z-index: 50;
+height: auto;
+display:none;
+padding: 50px 0 10px;
+}
+
+.mainsubs-container {
+    width: 50%;
+    min-height: 50%;
+    margin: auto auto;
+    padding: 90px 15px 15px 15px;
+    background-color: #ffffff;
+}
+
+.user {
+    width: 80%;
+    margin: 15px auto;
+    box-shadow: 0 0 15px rgba(38, 50, 56, 0.33);
+    border-radius: 5px;
+}
+
+.user .subs-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: top;
+    margin: 5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    
+    
+}
+
+.user .subs-name {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.user .subs-name h2 {
+    display: inline;
+    color: 'white';
+
+}
+
+.user .subs-name ~ .subs-actions {
+    padding: 10px;
+}
+
+.follow-button {
+    background-size: 15px;
+    background-color: #c8006e;
+    width: 150px;
+    height: 50px;
+    padding-left: 23px;
+    line-height: 0px;
+    text-align: center;
+    border: 2px solid #c8006e;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
